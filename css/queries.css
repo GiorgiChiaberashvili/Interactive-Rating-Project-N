@@ -1,0 +1,38 @@
+    @media only screen and (max-width:525px) {
+
+        .rating_section,
+        .thank_you {
+            width: 18rem;
+            margin-right: 0rem;
+        }
+
+        .para1 {
+            width: 20rem;
+        }
+
+        .para2 {
+            width: 18rem;
+        }
+
+        .circle {
+            height: 1rem;
+            width: 1rem;
+        }
+
+        .attribution {
+            letter-spacing: 0px;
+            gap: 3px;
+        }
+
+
+        .select_para {
+            width: 19rem;
+            align-items: center;
+            display: flex;
+            width: 14rem;
+            justify-content: center;
+            letter-spacing: 1px;
+            gap: 5px;
+            margin-left: 20px;
+        }
+    }

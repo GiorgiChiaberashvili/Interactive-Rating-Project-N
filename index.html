@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta name="description" content="A Interactive Rating Webpage. 
+  It contains well written, well thought and well 
+  designed Interactive Rating Webpage with well made 
+  responsive design and feedback.">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/queries.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Interactive Rating Project</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <!-- Rating state start -->
+
+    <section class="rating_section">
+      <img class="star" src="/images/icon-star.svg" alt="Star Icon" />
+      <h1 class="main_heading"> How did we do? </h1>
+      <p class="para1"> Please let us know how we did with your support request.
+        All feedback is appreciated to help us improve our offering! </p>
+      </div>
+      <div class="rating_score">
+        <p class="circle"> 1 </p>
+        <p class="circle"> 2 </p>
+        <p class="circle"> 3 </p>
+        <p class="circle"> 4 </p>
+        <p class="circle"> 5 </p>
+      </div>
+      <button class="btn">SUBMIT</button>
+    </section>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <section class="thank_you">
+      <img src="/images/illustration-thank-you.svg" alt="thank_you_illustration" />
+      <p class="select_para">
+        You selected <span id="ratingNum"> 0 </span> out of 5</p>
+      <h2 class="heading">Thank you! </h2>
+      <p class="para2">We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!
+      </p>
+    </section>
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Giorgi Chiaberashvili</a>.
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
